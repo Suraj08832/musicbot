@@ -1,6 +1,8 @@
 --only-binary :all:
 tgcrypto==1.2.5
 pyrogram==2.0.106
+numpy==1.23.5
+opencv-python-headless==4.6.0.66
 pytgcalls==0.9.7
 yt-dlp==2023.11.16
 python-dotenv==1.0.0
