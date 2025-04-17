@@ -5,6 +5,7 @@ services:
     buildCommand: |
       apt-get update
       apt-get install -y python3-pip python3.9 python3.9-dev build-essential ffmpeg libffi-dev libjpeg-dev libopus0 libopus-dev opus-tools libcairo2 pkg-config libpq-dev
+      pip3 install --no-cache-dir numpy==1.23.5
       pip3 install --no-cache-dir -r requirements.txt
     startCommand: python3 -m FallenMusic
     envVars:
@@ -13,4 +14,6 @@ services:
       - key: PYTHONUNBUFFERED
         value: 1
       - key: PYTHONPATH
-        value: /opt/render/project/src 
+        value: /opt/render/project/src
+      - key: LD_LIBRARY_PATH
+        value: /usr/local/lib 

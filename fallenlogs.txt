@@ -20,3 +20,10 @@
 [17-Apr-25 14:28:12 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\b7DAsHoPxGc.mp3
 [17-Apr-25 14:28:13 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
 [17-Apr-25 14:28:15 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
+[17-Apr-25 14:29:40 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=96YyRY8vkhY&pp=ygUZdG9vdGEgam8ga2JoaSB0YXJhIHNsb3dlZA%3D%3D
+[17-Apr-25 14:29:49 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\96YyRY8vkhY.mp3
+[17-Apr-25 14:29:54 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=7yKtHz7ORLo&pp=ygUPbWVpbiBiaGkgQ2hhbmdh
+[17-Apr-25 14:30:01 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\7yKtHz7ORLo.mp3
+[17-Apr-25 14:30:02 - ERROR] - FallenMusic - Error in play command: name 'GroupCallNotFound' is not defined
+[17-Apr-25 14:30:02 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 14:30:04 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
