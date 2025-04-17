@@ -126,3 +126,49 @@ AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
 [17-Apr-25 15:13:18 - INFO] - FallenMusic - Starting stream for chat -4600974829 with file downloads\PpZAQEX8E5k.mp3
 [17-Apr-25 15:13:19 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
 [17-Apr-25 15:13:21 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:16:30 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=OIv0FLrbnGE&pp=ygULY2FsbCBhYXVuZGk%3D
+[17-Apr-25 15:16:37 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\OIv0FLrbnGE.mp3
+[17-Apr-25 15:16:38 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:16:40 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:18:38 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=Htq8iKMIHbA&list=RDHtq8iKMIHbA&start_radio=1&pp=ygUpZWsgYmFhciBkb2dpIHRvaCBraG9sIGtyIGx1bmdhIGJpaGFyIHNvbmegBwE%3D
+[17-Apr-25 15:19:07 - ERROR] - FallenMusic - Download error: Download failed - file not found
+[17-Apr-25 15:19:07 - ERROR] - pyrogram.dispatcher - Download failed - file not found
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 212, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 75, in audio_dl
+    raise Exception("Download failed - file not found")
+Exception: Download failed - file not found
+[17-Apr-25 15:19:28 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=2HzgC3HYvlo&pp=ygUaYmloYXJpIGRvdWJsZSBtZWFuaW5nIHNvbmc%3D
+[17-Apr-25 15:19:37 - INFO] - FallenMusic - Starting stream for chat -4600974829 with file downloads\2HzgC3HYvlo.mp3
+[17-Apr-25 15:19:38 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:19:40 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:20:13 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=V1oczq_8L0E&pp=ygUMaXNocSBtdWJhcmFr0gcJCX4JAYcqIYzv
+[17-Apr-25 15:20:23 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:20:28 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=v7jiFpX5SU4&pp=ygURc3VubyBuIHNhbmdtYXJtYXI%3D
+[17-Apr-25 15:20:36 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:20:36 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:20:38 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:20:38 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:20:39 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:22:27 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=Y9ccdCDAZlA&pp=ygUaaGF0ZSB0b2hhciBkbyBkbyBpbmRpY2F0b3I%3D
+[17-Apr-25 15:22:34 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:22:36 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:23:03 - INFO] - FallenMusic - File already exists: downloads\Y9ccdCDAZlA.mp3
+[17-Apr-25 15:23:04 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:23:06 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:25:46 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:25:47 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:26:15 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:26:17 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'
+[17-Apr-25 15:27:25 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'can_manage_video_chats'
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\admins.py", line 50, in non_admin
+    if admin.can_manage_video_chats:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
