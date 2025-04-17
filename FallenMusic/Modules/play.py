@@ -100,7 +100,7 @@ async def play(_, message: Message):
             try:
                 await app2.resolve_peer(invitelink)
             except Exception as ex:
-                LOGGER.error(ex)
+                LOGGER.error(f"Failed to resolve peer: {ex}")
         else:
             try:
                 invitelink = await app.export_chat_invite_link(message.chat.id)
@@ -109,6 +109,7 @@ async def play(_, message: Message):
                     f"» ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ɪɴᴠɪᴛᴇ ᴜsᴇʀs ᴠɪᴀ ʟɪɴᴋ ғᴏʀ ɪɴᴠɪᴛɪɴɢ {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}."
                 )
             except Exception as ex:
+                LOGGER.error(f"Failed to export chat invite link: {ex}")
                 return await fallen.edit_text(
                     f"ғᴀɪʟᴇᴅ ᴛᴏ ɪɴᴠɪᴛᴇ {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}.\n\n**ʀᴇᴀsᴏɴ :** `{ex}`"
                 )
@@ -126,13 +127,14 @@ async def play(_, message: Message):
         except UserAlreadyParticipant:
             pass
         except Exception as ex:
+            LOGGER.error(f"Failed to join chat: {ex}")
             return await fallen.edit_text(
                 f"ғᴀɪʟᴇᴅ ᴛᴏ ɪɴᴠɪᴛᴇ {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}.\n\n**ʀᴇᴀsᴏɴ :** `{ex}`"
             )
         try:
             await app2.resolve_peer(invitelink)
-        except:
-            pass
+        except Exception as ex:
+            LOGGER.error(f"Failed to resolve peer after joining: {ex}")
 
     ruser = message.from_user.first_name
     audio = (
@@ -150,11 +152,15 @@ async def play(_, message: Message):
         file_name = get_file_name(audio)
         title = file_name
         duration = round(audio.duration / 60)
-        file_path = (
-            await message.reply_to_message.download(file_name)
-            if not os.path.isfile(os.path.join("downloads", file_name))
-            else f"downloads/{file_name}"
-        )
+        try:
+            file_path = (
+                await message.reply_to_message.download(file_name)
+                if not os.path.isfile(os.path.join("downloads", file_name))
+                else f"downloads/{file_name}"
+            )
+        except Exception as e:
+            LOGGER.error(f"Failed to download audio: {e}")
+            return await fallen.edit_text(f"Failed to download audio: {e}")
 
     elif url:
         try:
@@ -179,7 +185,11 @@ async def play(_, message: Message):
                 )
                 
             await fallen.edit_text("» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴀᴜᴅɪᴏ...")
-            file_path = audio_dl(url)
+            try:
+                file_path = audio_dl(url)
+            except Exception as e:
+                LOGGER.error(f"Failed to download audio from URL: {e}")
+                return await fallen.edit_text(f"Failed to download audio: {e}")
             
         except Exception as e:
             LOGGER.error(f"Error processing URL: {str(e)}")
@@ -202,14 +212,18 @@ async def play(_, message: Message):
                 secmul *= 60
 
         except Exception as e:
-            LOGGER.error(str(e))
+            LOGGER.error(f"Failed to search YouTube: {e}")
             return await fallen.edit("» ғᴀɪʟᴇᴅ ᴛᴏ ᴘʀᴏᴄᴇss ᴏ̨ᴜᴇʀʏ, ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ...")
 
         if (dur / 60) > DURATION_LIMIT:
             return await fallen.edit(
                 f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ ᴏɴ {BOT_NAME}."
             )
-        file_path = audio_dl(url)
+        try:
+            file_path = audio_dl(url)
+        except Exception as e:
+            LOGGER.error(f"Failed to download audio from search: {e}")
+            return await fallen.edit_text(f"Failed to download audio: {e}")
 
     try:
         videoid = videoid
@@ -226,22 +240,21 @@ async def play(_, message: Message):
             message.from_user.id,
         )
         position = len(fallendb.get(message.chat.id))
-        qimg = await gen_qthumb(videoid, message.from_user.id)
-        await message.reply_photo(
-            photo=qimg,
-            caption=f"**➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ̨ᴜᴇᴜᴇ ᴀᴛ {position}**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}",
-            reply_markup=buttons,
-        )
+        try:
+            qimg = await gen_qthumb(videoid, message.from_user.id)
+            await message.reply_photo(
+                photo=qimg,
+                caption=f"**➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ̨ᴜᴇᴜᴇ ᴀᴛ {position}**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}",
+                reply_markup=buttons,
+            )
+        except Exception as e:
+            LOGGER.error(f"Failed to send queue message: {e}")
     else:
         try:
             LOGGER.info(f"Starting stream for chat {message.chat.id} with file {file_path}")
             stream = AudioPiped(
                 file_path,
-                audio_parameters=HighQualityAudio(
-                    bitrate=48000,
-                    channels=2,
-                    frame_duration=20,
-                ),
+                audio_parameters=HighQualityAudio(),
             )
             try:
                 await pytgcalls.join_group_call(
@@ -249,27 +262,23 @@ async def play(_, message: Message):
                     stream,
                     stream_type=StreamType().local_stream,
                 )
-            except (NoActiveGroupCall, GroupCallNotFound):
+            except Exception as e:
+                LOGGER.error(f"Error joining group call: {str(e)}")
                 return await fallen.edit_text(
-                    "**» ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ғᴏᴜɴᴅ.**\n\nᴩʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ."
-                )
-            except TelegramServerError:
-                return await fallen.edit_text(
-                    "» ᴛᴇʟᴇɢʀᴀᴍ ɪs ʜᴀᴠɪɴɢ sᴏᴍᴇ ɪɴᴛᴇʀɴᴀʟ ᴘʀᴏʙʟᴇᴍs, ᴘʟᴇᴀsᴇ ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ."
-                )
-            except UnMuteNeeded:
-                return await fallen.edit_text(
-                    f"» {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ɪs ᴍᴜᴛᴇᴅ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ,\n\nᴘʟᴇᴀsᴇ ᴜɴᴍᴜᴛᴇ {ASS_MENTION} ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɴᴅ ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ."
+                    f"» ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.\n\n**ʀᴇᴀsᴏɴ :** `{str(e)}`"
                 )
 
-            imgt = await gen_thumb(videoid, message.from_user.id)
-            await stream_on(message.chat.id)
-            await add_active_chat(message.chat.id)
-            await message.reply_photo(
-                photo=imgt,
-                caption=f"**➻ sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}",
-                reply_markup=buttons,
-            )
+            try:
+                imgt = await gen_thumb(videoid, message.from_user.id)
+                await stream_on(message.chat.id)
+                await add_active_chat(message.chat.id)
+                await message.reply_photo(
+                    photo=imgt,
+                    caption=f"**➻ sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}",
+                    reply_markup=buttons,
+                )
+            except Exception as e:
+                LOGGER.error(f"Failed to send stream message: {e}")
         except Exception as e:
             LOGGER.error(f"Error in play command: {str(e)}")
             return await fallen.edit_text(f"» ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ:\n\n**ᴇʀʀᴏʀ :** `{str(e)}`")

@@ -73,15 +73,13 @@ async def close_(_, CallbackQuery):
 
 
 @app.on_callback_query(filters.regex("close"))
-async def forceclose_command(_, CallbackQuery):
+async def close(_, query: CallbackQuery):
     try:
-        await CallbackQuery.message.delete()
-    except:
-        return
-    try:
-        await CallbackQuery.answer()
-    except:
-        pass
+        await query.message.delete()
+        await query.answer()
+    except Exception as e:
+        LOGGER.error(f"Failed to close message: {e}")
+        await query.answer("Failed to close message", show_alert=True)
 
 
 @app.on_callback_query(filters.regex(pattern=r"^(resume_cb|pause_cb|skip_cb|end_cb)$"))
@@ -152,11 +150,7 @@ async def admin_cbs(_, query: CallbackQuery):
             user_id = get[0]["user_id"]
             get.pop(0)
 
-            stream = AudioPiped(file_path, audio_parameters=HighQualityAudio(
-                bitrate=48000,
-                channels=2,
-                frame_duration=20,
-            ))
+            stream = AudioPiped(file_path, audio_parameters=HighQualityAudio())
             try:
                 await pytgcalls.change_stream(
                     query.message.chat.id,
@@ -253,3 +247,63 @@ async def home_fallen(_, query: CallbackQuery):
         ),
         reply_markup=InlineKeyboardMarkup(pm_buttons),
     )
+
+
+@app.on_callback_query(filters.regex("end"))
+async def end(_, query: CallbackQuery):
+    try:
+        await query.answer()
+        await query.message.delete()
+        await pytgcalls.leave_group_call(query.message.chat.id)
+        await stream_off(query.message.chat.id)
+        await remove_active_chat(query.message.chat.id)
+        await query.message.reply_text(
+            f"**➻ sᴛʀᴇᴀᴍ ᴇɴᴅᴇᴅ/sᴛᴏᴘᴘᴇᴅ**\n\n‣ **ʙʏ :** {query.from_user.mention}"
+        )
+    except Exception as e:
+        LOGGER.error(f"Failed to end stream: {e}")
+        await query.answer("Failed to end stream", show_alert=True)
+
+
+@app.on_callback_query(filters.regex("skip"))
+async def skip(_, query: CallbackQuery):
+    try:
+        await query.answer()
+        await query.message.delete()
+        await pytgcalls.leave_group_call(query.message.chat.id)
+        await stream_off(query.message.chat.id)
+        await remove_active_chat(query.message.chat.id)
+        await query.message.reply_text(
+            f"**➻ sᴛʀᴇᴀᴍ sᴋɪᴘᴘᴇᴅ**\n\n‣ **ʙʏ :** {query.from_user.mention}"
+        )
+    except Exception as e:
+        LOGGER.error(f"Failed to skip stream: {e}")
+        await query.answer("Failed to skip stream", show_alert=True)
+
+
+@app.on_callback_query(filters.regex("pause"))
+async def pause(_, query: CallbackQuery):
+    try:
+        await query.answer()
+        await query.message.delete()
+        await pytgcalls.pause_stream(query.message.chat.id)
+        await query.message.reply_text(
+            f"**➻ sᴛʀᴇᴀᴍ ᴘᴀᴜsᴇᴅ**\n\n‣ **ʙʏ :** {query.from_user.mention}"
+        )
+    except Exception as e:
+        LOGGER.error(f"Failed to pause stream: {e}")
+        await query.answer("Failed to pause stream", show_alert=True)
+
+
+@app.on_callback_query(filters.regex("resume"))
+async def resume(_, query: CallbackQuery):
+    try:
+        await query.answer()
+        await query.message.delete()
+        await pytgcalls.resume_stream(query.message.chat.id)
+        await query.message.reply_text(
+            f"**➻ sᴛʀᴇᴀᴍ ʀᴇsᴜᴍᴇᴅ**\n\n‣ **ʙʏ :** {query.from_user.mention}"
+        )
+    except Exception as e:
+        LOGGER.error(f"Failed to resume stream: {e}")
+        await query.answer("Failed to resume stream", show_alert=True)

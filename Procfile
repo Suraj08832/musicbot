@@ -1,1 +1,1 @@
-worker: python3.11 -m FallenMusic
+worker: python3 -m FallenMusic
