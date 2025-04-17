@@ -1,5 +1,5 @@
-numpy==1.21.6
-opencv-python-headless==4.5.3.56
+numpy==2.2.4
+opencv-python-headless==4.11.0
 pytgcalls==0.9.7
 pyrogram==2.0.106
 tgcrypto==1.2.5
