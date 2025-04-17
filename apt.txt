@@ -1,0 +1,13 @@
+python3.9
+python3.9-dev
+python3-pip
+build-essential
+ffmpeg
+libffi-dev
+libjpeg-dev
+libopus0
+libopus-dev
+opus-tools
+libcairo2
+pkg-config
+libpq-dev 
