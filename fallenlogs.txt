@@ -87,3 +87,9 @@ AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
 [17-Apr-25 14:56:04 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\RazuWp5kSHk.mp3
 [17-Apr-25 14:56:06 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
 [17-Apr-25 14:56:07 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
+[17-Apr-25 15:07:18 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 15:07:19 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...

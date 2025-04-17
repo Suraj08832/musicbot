@@ -39,15 +39,19 @@ ydl_opts = {
         {
             "key": "FFmpegExtractAudio",
             "preferredcodec": "mp3",
-            "preferredquality": "320",
+            "preferredquality": "192",
         }
     ],
     "logger": LOGGER,
     "encoding": "utf-8",
     "extract_flat": True,
     "ignoreerrors": True,
-    "retries": 3,
-    "socket_timeout": 30,
+    "retries": 5,
+    "socket_timeout": 60,
+    "buffer_size": 1024 * 1024,
+    "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
 }
 
 def audio_dl(url: str) -> str:

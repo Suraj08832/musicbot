@@ -29,6 +29,7 @@ from pyrogram.errors import (
     ChatAdminRequired,
     UserAlreadyParticipant,
     UserNotParticipant,
+    GroupCallNotFound,
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
