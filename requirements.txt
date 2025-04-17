@@ -1,7 +1,8 @@
-numpy==1.23.5
-opencv-python-headless==4.8.0.76
+numpy==2.0.2
+opencv-python==4.5.3.56
 pytgcalls==3.0.0.dev6
 pyrogram==2.0.106
+tgcalls==3.0.0.dev2
 tgcrypto==1.2.5
 yt-dlp==2023.11.16
 python-dotenv==1.0.0
@@ -11,5 +12,7 @@ pillow==10.0.0
 pybind11==2.12.0
 motor==3.3.2
 pymongo==4.6.1
-requests==2.31.0
+requests==2.32.3
 ffmpeg-python==0.2.0
+PyYAML==6.0.1
+mutagen==1.47.0
