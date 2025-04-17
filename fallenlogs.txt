@@ -1,22 +1,22 @@
-[17-Apr-25 14:15:23 - INFO] - FallenMusic - 
+[17-Apr-25 14:26:21 - INFO] - FallenMusic - 
 
 ┏━━━━━━━━━━━━━━━━━━━━━━┓
 ┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
 ┗━━━━━━━━━━━━━━━━━━━━━━┛
-[17-Apr-25 14:15:30 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
-[17-Apr-25 14:15:31 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
-[17-Apr-25 14:15:32 - INFO] - FallenMusic - [•] Local Database Initialized...
-[17-Apr-25 14:15:32 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
-[17-Apr-25 14:15:32 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
-[17-Apr-25 14:15:32 - INFO] - FallenMusic - [•] Loading Modules...
-[17-Apr-25 14:15:32 - INFO] - FallenMusic - [•] Loaded 22 Modules.
-[17-Apr-25 14:15:32 - INFO] - FallenMusic - [•] Refreshing Directories...
-[17-Apr-25 14:15:32 - INFO] - FallenMusic - [•] Directories Refreshed.
-[17-Apr-25 14:15:32 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
-[17-Apr-25 14:15:33 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
-[17-Apr-25 14:15:33 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
-[17-Apr-25 14:15:33 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
-[17-Apr-25 14:16:00 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=7dO_MS9tZ5E&pp=ygUfZGVraGEgZWsga2h3YWFiIHRvaCBzaWxzaWxlIGh1cw%3D%3D
-[17-Apr-25 14:16:07 - INFO] - FallenMusic - Starting stream for chat -4775012025 with file downloads\7dO_MS9tZ5E.mp3
-[17-Apr-25 14:16:09 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
-[17-Apr-25 14:16:11 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
+[17-Apr-25 14:26:27 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 14:26:28 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 14:26:29 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 14:26:29 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 14:26:29 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
+[17-Apr-25 14:26:29 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 14:26:29 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 14:26:29 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 14:26:29 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 14:26:29 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 14:26:30 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 14:26:30 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 14:26:30 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 14:28:03 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=b7DAsHoPxGc&pp=ygULamhvbCBzbG93ZWQ%3D
+[17-Apr-25 14:28:12 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\b7DAsHoPxGc.mp3
+[17-Apr-25 14:28:13 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 14:28:15 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'

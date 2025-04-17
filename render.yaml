@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: fallenmusic
+    env: python
+    buildCommand: |
+      apt-get update
+      apt-get install -y python3-pip python3.9 python3.9-dev build-essential ffmpeg libffi-dev libjpeg-dev libopus0 libopus-dev opus-tools libcairo2 pkg-config libpq-dev
+      pip3 install --no-cache-dir -r requirements.txt
+    startCommand: python3 -m FallenMusic
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: PYTHONUNBUFFERED
+        value: 1
+      - key: PYTHONPATH
+        value: /opt/render/project/src 
