@@ -93,3 +93,36 @@ AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
 ┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
 ┗━━━━━━━━━━━━━━━━━━━━━━┛
 [17-Apr-25 15:07:19 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 15:10:30 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 15:10:32 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 15:10:33 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 15:10:34 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 15:10:34 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 15:10:34 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
+[17-Apr-25 15:10:34 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 15:11:12 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 15:11:13 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 15:11:14 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 15:11:15 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 15:11:15 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 15:11:15 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
+[17-Apr-25 15:11:15 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 15:11:15 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 15:11:15 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 15:11:15 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 15:11:15 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 15:11:16 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 15:11:16 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 15:11:16 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 15:13:10 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=PpZAQEX8E5k&pp=ygUvYXBuZSBsb3ZlciBrbyBkaG9rYSBkbyBodW1lIGJoaSBkYXJsaW5nIG1va2EgZG8%3D
+[17-Apr-25 15:13:18 - INFO] - FallenMusic - Starting stream for chat -4600974829 with file downloads\PpZAQEX8E5k.mp3
+[17-Apr-25 15:13:19 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 15:13:21 - ERROR] - FallenMusic - 'ImageDraw' object has no attribute 'textsize'

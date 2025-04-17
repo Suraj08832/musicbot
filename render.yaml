@@ -1,22 +1,25 @@
 services:
   - type: web
-    name: fallenmusic
+    name: fallen-music-bot
     env: python
     buildCommand: |
-      apt-get update
-      apt-get install -y python3-pip python3.9 python3.9-dev build-essential ffmpeg libffi-dev libjpeg-dev libopus0 libopus-dev opus-tools libcairo2 pkg-config libpq-dev
-      pip3 install --no-cache-dir numpy==1.21.6
-      pip3 install --no-cache-dir opencv-python-headless==4.5.3.56
+      apt-get update && apt-get install -y python3-pip python3.9 python3.9-dev build-essential ffmpeg libffi-dev libjpeg-dev libopus0 libopus-dev opus-tools libcairo2 pkg-config libpq-dev
       pip3 install --no-cache-dir -r requirements.txt
     startCommand: python3 -m FallenMusic
     envVars:
       - key: PYTHON_VERSION
         value: 3.9.0
-      - key: PYTHONUNBUFFERED
-        value: 1
-      - key: PYTHONPATH
-        value: /opt/render/project/src
-      - key: LD_LIBRARY_PATH
-        value: /usr/local/lib
-      - key: OPENCV_VIDEOIO_PRIORITY_MSMF
-        value: 0 
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: MONGO_DB_URI
+        sync: false
+      - key: LOG_GROUP_ID
+        sync: false
+      - key: MUSIC_BOT_NAME
+        sync: false
+      - key: OWNER_ID
+        sync: false 
