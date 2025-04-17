@@ -237,13 +237,17 @@ async def play(_, message: Message):
             LOGGER.info(f"Starting stream for chat {message.chat.id} with file {file_path}")
             stream = AudioPiped(
                 file_path,
-                audio_parameters=HighQualityAudio(),
+                audio_parameters=HighQualityAudio(
+                    bitrate=48000,
+                    channels=2,
+                    frame_duration=20,
+                ),
             )
             try:
                 await pytgcalls.join_group_call(
                     message.chat.id,
                     stream,
-                    stream_type=StreamType().pulse_stream,
+                    stream_type=StreamType().local_stream,
                 )
             except (NoActiveGroupCall, GroupCallNotFound):
                 return await fallen.edit_text(

@@ -152,7 +152,11 @@ async def admin_cbs(_, query: CallbackQuery):
             user_id = get[0]["user_id"]
             get.pop(0)
 
-            stream = AudioPiped(file_path, audio_parameters=HighQualityAudio())
+            stream = AudioPiped(file_path, audio_parameters=HighQualityAudio(
+                bitrate=48000,
+                channels=2,
+                frame_duration=20,
+            ))
             try:
                 await pytgcalls.change_stream(
                     query.message.chat.id,

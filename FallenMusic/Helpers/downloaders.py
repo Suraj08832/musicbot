@@ -39,16 +39,18 @@ ydl_opts = {
         {
             "key": "FFmpegExtractAudio",
             "preferredcodec": "mp3",
-            "preferredquality": "192",
+            "preferredquality": "128",
         }
     ],
     "logger": LOGGER,
     "encoding": "utf-8",
     "extract_flat": True,
     "ignoreerrors": True,
-    "retries": 5,
-    "socket_timeout": 60,
-    "buffer_size": 1024 * 1024,
+    "retries": 10,
+    "socket_timeout": 30,
+    "buffer_size": 16 * 1024 * 1024,  # 16MB buffer
+    "concurrent_fragment_downloads": 10,  # Download multiple fragments at once
+    "http_chunk_size": 10 * 1024 * 1024,  # 10MB per chunk
     "http_headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     }

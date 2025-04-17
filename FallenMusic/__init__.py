@@ -60,10 +60,16 @@ if platform.system() == "Windows":
 else:
     os.system("clear")
 
+if not os.path.exists("downloads"):
+    os.makedirs("downloads")
+
+if not os.path.exists("cache"):
+    os.makedirs("cache")
+
 app = Client(
     "FallenMusic",
-    config.API_ID,
-    config.API_HASH,
+    api_id=config.API_ID,
+    api_hash=config.API_HASH,
     bot_token=config.BOT_TOKEN,
 )
 
@@ -74,7 +80,16 @@ app2 = Client(
     session_string=str(config.SESSION),
 )
 
-pytgcalls = PyTgCalls(app2)
+pytgcalls = PyTgCalls(app2,
+    # Configure overload protection
+    overload_quiet_mode=True,
+    # Cache management
+    cache_duration=180,  # 3 minutes of cache
+    # Performance settings
+    full_peer=False,
+    # User network connection
+    max_network_retries=10
+)
 
 SUDOERS = filters.user()
 SUNAME = config.SUPPORT_CHAT
