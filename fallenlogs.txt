@@ -172,3 +172,21 @@ Traceback (most recent call last):
     if admin.can_manage_video_chats:
        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
+[17-Apr-25 18:28:16 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 18:28:19 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 18:28:21 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 18:28:22 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 18:28:22 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 18:28:22 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
+[17-Apr-25 18:28:22 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 18:28:26 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 18:28:26 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 18:28:26 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 18:28:26 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 18:28:27 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 18:28:27 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 18:28:27 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
