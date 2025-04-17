@@ -2,7 +2,7 @@ numpy==1.21.6
 opencv-python-headless==4.5.3.56
 pyrogram==2.0.106
 tgcrypto==1.2.5
-pytgcalls==0.9.7
+py-tgcalls==0.9.7
 yt-dlp==2023.11.16
 python-dotenv==1.0.0
 aiohttp==3.9.1
