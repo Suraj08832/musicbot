@@ -31,3 +31,59 @@
 [17-Apr-25 14:36:42 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\ACxn5hjM4E0.mp3
 [17-Apr-25 14:36:44 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
 [17-Apr-25 14:36:45 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
+[17-Apr-25 14:46:39 - INFO] - FallenMusic - File already exists: downloads\CqGwXPS4MaM.mp3
+[17-Apr-25 14:46:39 - INFO] - FallenMusic - Starting stream for chat -4775012025 with file downloads\CqGwXPS4MaM.mp3
+[17-Apr-25 14:46:40 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 14:46:42 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
+[17-Apr-25 14:48:35 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=lz1-1Q8Gync&pp=ygURbG92ZSBtZSB0aG9yYSBhdXI%3D
+[17-Apr-25 14:48:43 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\lz1-1Q8Gync.mp3
+[17-Apr-25 14:48:45 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 14:48:47 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
+[17-Apr-25 14:53:12 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=pIBoAh4OXhQ&pp=ygUbamFuYW0gamFuYW0gc2F0aCBjaGxuYSB5dWhp
+[17-Apr-25 14:53:19 - INFO] - FallenMusic - Starting stream for chat -4600974829 with file downloads\pIBoAh4OXhQ.mp3
+[17-Apr-25 14:53:21 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 14:53:23 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
+[17-Apr-25 14:54:25 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'can_manage_video_chats'
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\admins.py", line 50, in non_admin
+    if admin.can_manage_video_chats:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
+[17-Apr-25 14:54:33 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'can_manage_video_chats'
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\admins.py", line 50, in non_admin
+    if admin.can_manage_video_chats:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
+[17-Apr-25 14:54:40 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'can_manage_video_chats'
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\admins.py", line 50, in non_admin
+    if admin.can_manage_video_chats:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
+[17-Apr-25 14:55:04 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'can_manage_video_chats'
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\admins.py", line 50, in non_admin
+    if admin.can_manage_video_chats:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
+[17-Apr-25 14:55:08 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'can_manage_video_chats'
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\admins.py", line 50, in non_admin
+    if admin.can_manage_video_chats:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'can_manage_video_chats'
+[17-Apr-25 14:55:59 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=RazuWp5kSHk&pp=ygUTa2JoaSBqbyBiYWRhbCBiYXJzZQ%3D%3D
+[17-Apr-25 14:56:04 - INFO] - FallenMusic - Starting stream for chat -1002347835328 with file downloads\RazuWp5kSHk.mp3
+[17-Apr-25 14:56:06 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 14:56:07 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
