@@ -1,6 +1,6 @@
 pyrogram==2.0.106
 pytgcalls==3.0.0.dev6
-yt-dlp==2023.11.16
+yt-dlp==2025.3.31
 PyYAML==6.0.1
 python-dotenv==1.0.0
 aiohttp==3.9.1
