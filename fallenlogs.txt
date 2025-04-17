@@ -1,0 +1,1529 @@
+[17-Apr-25 12:33:54 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:34:01 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 12:34:02 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 12:34:02 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 12:34:02 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 12:34:02 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 12:34:04 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 12:34:04 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 12:34:04 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 12:34:04 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 12:34:04 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 12:34:04 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 12:34:04 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 12:34:04 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\start.py", line 85, in fallen_st
+    await message.reply_photo(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2000, in reply_photo
+    return await self._client.send_photo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\send_photo.py", line 177, in send_photo
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.SendMedia")
+[17-Apr-25 12:34:20 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\start.py", line 85, in fallen_st
+    await message.reply_photo(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2000, in reply_photo
+    return await self._client.send_photo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\send_photo.py", line 177, in send_photo
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.SendMedia")
+[17-Apr-25 12:36:24 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:36:25 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 12:36:26 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 12:36:27 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 12:36:27 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 12:36:27 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 12:36:28 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 12:36:28 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 12:36:28 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 12:36:28 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 12:36:29 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 12:36:29 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 12:36:29 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 12:37:09 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\callback.py", line 231, in open_hmenu
+    await query.edit_message_text(HELP_TEXT, reply_markup=keyboard)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 200, in edit_message_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:37:12 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\callback.py", line 235, in open_hmenu
+    await query.edit_message_text(HELP_DEV, reply_markup=keyboard)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 200, in edit_message_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:37:18 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\callback.py", line 231, in open_hmenu
+    await query.edit_message_text(HELP_TEXT, reply_markup=keyboard)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 200, in edit_message_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:37:20 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\callback.py", line 233, in open_hmenu
+    await query.edit_message_text(HELP_SUDO, reply_markup=keyboard)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 200, in edit_message_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:38:19 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:38:32 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:38:33 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 12:38:34 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 12:38:35 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 12:38:35 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 12:38:35 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 12:38:36 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 12:38:36 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 12:38:36 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 12:38:36 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 12:38:36 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 12:38:36 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 12:38:36 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 12:38:47 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\callback.py", line 223, in open_hmenu
+    await query.edit_message_text(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 200, in edit_message_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:38:51 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\callback.py", line 233, in open_hmenu
+    await query.edit_message_text(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 200, in edit_message_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:39:30 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 204, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 51, in audio_dl
+    ydl.download([url])
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3634, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3607, in wrapper
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3508, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3228, in dl
+    return fd.download(name, new_info, subtitle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 468, in download
+    ret = self.real_download(filename, info_dict)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 368, in real_download
+    return download()
+           ^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 305, in download
+    self._hook_progress({
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 483, in _hook_progress
+    ph(status)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 405, in report_progress
+    self._report_progress_status(s, msg_template)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 332, in _report_progress_status
+    self._multiline.print_at_line(self.ydl.evaluate_outtmpl(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 134, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 150, in print_at_line
+    self.write(*self._move_cursor(pos), CONTROL_SEQUENCES['ERASE_LINE'], text)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 102, in write
+    write_string(''.join(text), self.stream)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:40:48 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\ping.py", line 48, in ping_fallen
+    await hmm.edit_text(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2803, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:41:22 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 204, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 51, in audio_dl
+    ydl.download([url])
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3634, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3607, in wrapper
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3508, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3228, in dl
+    return fd.download(name, new_info, subtitle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 468, in download
+    ret = self.real_download(filename, info_dict)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 368, in real_download
+    return download()
+           ^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 305, in download
+    self._hook_progress({
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 483, in _hook_progress
+    ph(status)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 405, in report_progress
+    self._report_progress_status(s, msg_template)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 332, in _report_progress_status
+    self._multiline.print_at_line(self.ydl.evaluate_outtmpl(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 134, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 150, in print_at_line
+    self.write(*self._move_cursor(pos), CONTROL_SEQUENCES['ERASE_LINE'], text)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 102, in write
+    write_string(''.join(text), self.stream)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:42:15 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:42:17 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 12:42:18 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 12:42:18 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 12:42:18 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 12:42:18 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 12:42:19 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 12:42:19 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 12:42:19 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 12:42:19 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 12:42:20 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 12:42:20 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 12:42:20 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 12:43:57 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 204, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 51, in audio_dl
+    ydl.download([url])
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3634, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3607, in wrapper
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3508, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3228, in dl
+    return fd.download(name, new_info, subtitle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 468, in download
+    ret = self.real_download(filename, info_dict)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 368, in real_download
+    return download()
+           ^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 305, in download
+    self._hook_progress({
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 483, in _hook_progress
+    ph(status)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 405, in report_progress
+    self._report_progress_status(s, msg_template)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 332, in _report_progress_status
+    self._multiline.print_at_line(self.ydl.evaluate_outtmpl(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 134, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 150, in print_at_line
+    self.write(*self._move_cursor(pos), CONTROL_SEQUENCES['ERASE_LINE'], text)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 102, in write
+    write_string(''.join(text), self.stream)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:46:40 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:46:41 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 12:46:42 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 12:46:43 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 12:46:43 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 12:46:43 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 12:46:44 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 12:46:44 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 12:46:44 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 12:46:44 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 12:46:45 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 12:46:45 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 12:46:45 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 12:46:49 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\ping.py", line 48, in ping_fallen
+    await hmm.edit_text(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2803, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:51:39 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:51:40 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 12:51:42 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 12:51:42 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 12:51:42 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 12:51:42 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 12:51:43 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 12:51:43 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 12:51:43 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 12:51:43 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 12:51:44 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 12:51:44 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 12:51:44 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 12:52:38 - INFO] - FallenMusic - Starting download for URL: https://youtube.com/watch?v=CqGwXPS4MaM&pp=ygURdHUgbmFnaW4gc2kgbHVnYWk%3D
+[17-Apr-25 12:52:43 - INFO] - FallenMusic - Downloading audio to: downloads\CqGwXPS4MaM.mp3
+[17-Apr-25 12:52:46 - ERROR] - FallenMusic - Error in audio_dl: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:52:46 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3508, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3228, in dl
+    return fd.download(name, new_info, subtitle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 468, in download
+    ret = self.real_download(filename, info_dict)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 368, in real_download
+    return download()
+           ^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 305, in download
+    self._hook_progress({
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 483, in _hook_progress
+    ph(status)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 405, in report_progress
+    self._report_progress_status(s, msg_template)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 332, in _report_progress_status
+    self._multiline.print_at_line(self.ydl.evaluate_outtmpl(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 134, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 150, in print_at_line
+    self.write(*self._move_cursor(pos), CONTROL_SEQUENCES['ERASE_LINE'], text)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 102, in write
+    write_string(''.join(text), self.stream)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 204, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 69, in audio_dl
+    ydl.download([url])
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3634, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3607, in wrapper
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1674, in wrapper
+    self.report_error(str(e), tb=encode_compat_str(traceback.format_exc()))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1111, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1030, in trouble
+    self.to_stderr(message)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 969, in to_stderr
+    self._write_string(f'{self._bidi_workaround(message)}\n', self._out_files.error, only_once=only_once)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 940, in _write_string
+    write_string(message, out=out, encoding=self.params.get('encoding'))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:54:56 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:54:58 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 12:54:59 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 12:54:59 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 12:54:59 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 12:54:59 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 12:55:00 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 12:55:00 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 12:55:00 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 12:55:00 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 12:55:01 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 12:55:01 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 12:55:01 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 12:55:19 - INFO] - FallenMusic - Starting download for URL: https://youtube.com/watch?v=CqGwXPS4MaM&pp=ygURdHUgbmFnaW4gc2kgbHVnYWk%3D
+[17-Apr-25 12:55:24 - INFO] - FallenMusic - Downloading audio to: downloads\CqGwXPS4MaM.mp3
+[17-Apr-25 12:55:28 - ERROR] - FallenMusic - Error in audio_dl: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:55:28 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3508, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3228, in dl
+    return fd.download(name, new_info, subtitle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 468, in download
+    ret = self.real_download(filename, info_dict)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 368, in real_download
+    return download()
+           ^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 305, in download
+    self._hook_progress({
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 483, in _hook_progress
+    ph(status)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 405, in report_progress
+    self._report_progress_status(s, msg_template)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 332, in _report_progress_status
+    self._multiline.print_at_line(self.ydl.evaluate_outtmpl(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 134, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 150, in print_at_line
+    self.write(*self._move_cursor(pos), CONTROL_SEQUENCES['ERASE_LINE'], text)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 102, in write
+    write_string(''.join(text), self.stream)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 207, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 74, in audio_dl
+    ydl.download([url])
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3634, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3607, in wrapper
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1674, in wrapper
+    self.report_error(str(e), tb=encode_compat_str(traceback.format_exc()))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1111, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1030, in trouble
+    self.to_stderr(message)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 969, in to_stderr
+    self._write_string(f'{self._bidi_workaround(message)}\n', self._out_files.error, only_once=only_once)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 940, in _write_string
+    write_string(message, out=out, encoding=self.params.get('encoding'))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:55:33 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[17-Apr-25 12:55:33 - ERROR] - FallenMusic - Fallen Music Bot Stopped.
+[17-Apr-25 12:56:04 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 12:56:05 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 12:56:06 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 12:56:06 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 12:56:06 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 12:56:06 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 12:56:07 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 12:56:07 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 12:56:07 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 12:56:07 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 12:56:07 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 12:56:07 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 12:56:07 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 12:58:40 - INFO] - FallenMusic - Starting download for URL: https://youtube.com/watch?v=BTRPBiE_1lA&pp=ygUPdHUgaGkgeWFhciBtZXJh
+[17-Apr-25 12:58:46 - INFO] - FallenMusic - Downloading audio to: downloads\BTRPBiE_1lA.mp3
+[17-Apr-25 12:58:49 - ERROR] - FallenMusic - Error in audio_dl: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:58:49 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3508, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3228, in dl
+    return fd.download(name, new_info, subtitle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 468, in download
+    ret = self.real_download(filename, info_dict)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 368, in real_download
+    return download()
+           ^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 305, in download
+    self._hook_progress({
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 483, in _hook_progress
+    ph(status)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 405, in report_progress
+    self._report_progress_status(s, msg_template)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 332, in _report_progress_status
+    self._multiline.print_at_line(self.ydl.evaluate_outtmpl(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 134, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 150, in print_at_line
+    self.write(*self._move_cursor(pos), CONTROL_SEQUENCES['ERASE_LINE'], text)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 102, in write
+    write_string(''.join(text), self.stream)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 212, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 74, in audio_dl
+    ydl.download([url])
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3634, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3607, in wrapper
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1674, in wrapper
+    self.report_error(str(e), tb=encode_compat_str(traceback.format_exc()))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1111, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1030, in trouble
+    self.to_stderr(message)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 969, in to_stderr
+    self._write_string(f'{self._bidi_workaround(message)}\n', self._out_files.error, only_once=only_once)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 940, in _write_string
+    write_string(message, out=out, encoding=self.params.get('encoding'))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 12:59:54 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\ping.py", line 48, in ping_fallen
+    await hmm.edit_text(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2803, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 12:59:55 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:00:27 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:00:29 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:00:30 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:00:31 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:00:31 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:00:31 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:00:31 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:00:31 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:00:31 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:00:32 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:00:32 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:00:32 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:00:32 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:00:54 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 212, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 51, in audio_dl
+    ydl.download([url])
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3634, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3607, in wrapper
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3508, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3228, in dl
+    return fd.download(name, new_info, subtitle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 468, in download
+    ret = self.real_download(filename, info_dict)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 368, in real_download
+    return download()
+           ^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 305, in download
+    self._hook_progress({
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 483, in _hook_progress
+    ph(status)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 405, in report_progress
+    self._report_progress_status(s, msg_template)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 332, in _report_progress_status
+    self._multiline.print_at_line(self.ydl.evaluate_outtmpl(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 134, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 150, in print_at_line
+    self.write(*self._move_cursor(pos), CONTROL_SEQUENCES['ERASE_LINE'], text)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 102, in write
+    write_string(''.join(text), self.stream)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 13:02:59 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 212, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 51, in audio_dl
+    info = ydl.extract_info(url, download=False)
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3634, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3607, in wrapper
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3508, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3228, in dl
+    return fd.download(name, new_info, subtitle)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 468, in download
+    ret = self.real_download(filename, info_dict)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 368, in real_download
+    return download()
+           ^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\http.py", line 305, in download
+    self._hook_progress({
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 483, in _hook_progress
+    ph(status)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 405, in report_progress
+    self._report_progress_status(s, msg_template)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\downloader\common.py", line 332, in _report_progress_status
+    self._multiline.print_at_line(self.ydl.evaluate_outtmpl(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 134, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 150, in print_at_line
+    self.write(*self._move_cursor(pos), CONTROL_SEQUENCES['ERASE_LINE'], text)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\minicurses.py", line 102, in write
+    write_string(''.join(text), self.stream)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 13:09:57 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:09:59 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:10:00 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:10:00 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:10:00 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:10:00 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:10:01 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:10:01 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:10:01 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:10:01 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:10:01 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:10:01 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:10:01 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:10:36 - ERROR] - FallenMusic - Download error: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 13:10:36 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 212, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 51, in audio_dl
+    info = ydl.extract_info(url, download=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1788, in __extract_info
+    ie_result = ie.extract(url)
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\extractor\common.py", line 746, in extract
+    self.to_screen('Extracting URL: %s' % (
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\extractor\common.py", line 1212, in to_screen
+    self._downloader.to_screen(f'[{self.IE_NAME}] {msg}', *args, **kwargs)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 959, in to_screen
+    self._write_string(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 940, in _write_string
+    write_string(message, out=out, encoding=self.params.get('encoding'))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 13:11:48 - ERROR] - FallenMusic - Download error: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 13:11:48 - ERROR] - pyrogram.dispatcher - utf_8_encode() argument 1 must be str, not bytes
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\play.py", line 212, in play
+    file_path = audio_dl(url)
+                ^^^^^^^^^^^^^
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Helpers\downloaders.py", line 51, in audio_dl
+    }
+      
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1788, in __extract_info
+    ie_result = ie.extract(url)
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\extractor\common.py", line 746, in extract
+    self.to_screen('Extracting URL: %s' % (
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\extractor\common.py", line 1212, in to_screen
+    self._downloader.to_screen(f'[{self.IE_NAME}] {msg}', *args, **kwargs)
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 959, in to_screen
+    self._write_string(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\YoutubeDL.py", line 940, in _write_string
+    write_string(message, out=out, encoding=self.params.get('encoding'))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\yt_dlp\utils\_utils.py", line 1485, in write_string
+    buffer.write(s.encode(enc, 'ignore') if enc else s)
+  File "<frozen codecs>", line 377, in write
+TypeError: utf_8_encode() argument 1 must be str, not bytes
+[17-Apr-25 13:12:19 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:12:20 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:12:21 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:12:21 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:12:21 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:12:21 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:12:22 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:12:22 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:12:22 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:12:22 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:12:23 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:12:23 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:12:23 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:12:31 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\sandeep\FallenMusic\FallenMusic\Modules\ping.py", line 48, in ping_fallen
+    await hmm.edit_text(
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2803, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\sandeep\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUrlInvalid: Telegram says: [400 BUTTON_URL_INVALID] - The button url is invalid (caused by "messages.EditMessage")
+[17-Apr-25 13:13:15 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:13:16 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:13:17 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:13:18 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:13:18 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:13:18 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:13:18 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:13:18 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:13:18 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:13:18 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:13:19 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:13:19 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:13:19 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:13:44 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=CqGwXPS4MaM&pp=ygURdHUgbmFnaW4gc2kgbHVnYWk%3D
+[17-Apr-25 13:13:50 - INFO] - FallenMusic - Starting stream for chat -1002564726521 with file downloads\CqGwXPS4MaM.mp3
+[17-Apr-25 13:13:50 - ERROR] - FallenMusic - Error in play command: HighQualityAudio.__init__() got an unexpected keyword argument 'bitrate'
+[17-Apr-25 13:14:49 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:14:50 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:14:51 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:14:51 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:14:51 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:14:51 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:14:52 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:14:52 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:14:52 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:14:52 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:14:53 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:14:53 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:14:53 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:15:05 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=BTRPBiE_1lA&pp=ygUSZWsgdHUgaGkgeWFhciBtZXJh0gcJCX4JAYcqIYzv
+[17-Apr-25 13:15:12 - INFO] - FallenMusic - Starting stream for chat -1002564726521 with file downloads\BTRPBiE_1lA.mp3
+[17-Apr-25 13:15:14 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 13:15:15 - ERROR] - FallenMusic - module 'PIL.Image' has no attribute 'ANTIALIAS'
+[17-Apr-25 13:16:52 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:16:54 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:16:55 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:16:56 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:16:56 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:16:56 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:16:56 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:16:56 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:16:56 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:16:57 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:16:57 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:16:57 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:16:57 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:17:06 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ZEFRON MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:17:07 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:17:09 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:17:09 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:17:09 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:17:09 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:17:09 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:17:09 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:17:09 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:17:10 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:17:10 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:17:10 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:17:10 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:19:57 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:20:05 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:20:06 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:20:08 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:20:08 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:20:09 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:20:09 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:20:09 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:20:09 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:20:09 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:20:09 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:20:09 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:20:10 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:20:10 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:20:10 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:22:08 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:22:09 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:22:11 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:22:11 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:22:11 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:22:11 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:22:11 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:22:12 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:22:12 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:22:12 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:22:12 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:22:12 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:22:12 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:22:12 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:24:11 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:24:13 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:24:14 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:24:15 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:24:15 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:24:15 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:24:15 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:24:15 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:24:15 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:24:15 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:24:15 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:24:16 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:24:16 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:24:16 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:25:58 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:25:59 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:26:00 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:26:01 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:26:01 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:26:01 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:26:01 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:26:02 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:26:02 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:26:02 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:26:02 - ERROR] - FallenMusic - testing failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:26:02 - INFO] - FallenMusic - [•] Bot Started As testing.
+[17-Apr-25 13:26:02 - INFO] - FallenMusic - [•] Assistant Started As testing .
+[17-Apr-25 13:26:02 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:27:25 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:27:26 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:27:27 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:27:28 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:27:28 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:27:28 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:27:28 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:27:28 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:27:28 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:27:28 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:27:28 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:27:29 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:27:29 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:27:29 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:28:34 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:28:35 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:28:37 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:28:37 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:28:38 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:28:38 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:28:38 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:28:38 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:28:38 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:28:38 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:28:38 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:28:39 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:28:39 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:28:39 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:29:47 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:29:49 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:29:50 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:29:50 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:29:51 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:29:51 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:29:51 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:29:51 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:29:51 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:29:51 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:29:51 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:29:51 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:29:51 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:29:51 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:31:10 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:31:11 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:31:12 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:31:13 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:31:13 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:31:13 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:31:13 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:31:13 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:31:13 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:31:13 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:31:13 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:31:14 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:31:14 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:31:14 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:33:39 - INFO] - FallenMusic - Downloading audio from: https://youtube.com/watch?v=PXGycbkbtW0&pp=ygUTaXRzIHlvdSBieSBhbGkgZ2F0ZQ%3D%3D
+[17-Apr-25 13:33:47 - INFO] - FallenMusic - Starting stream for chat -4775012025 with file downloads\PXGycbkbtW0.mp3
+[17-Apr-25 13:33:48 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[17-Apr-25 13:33:49 - ERROR] - FallenMusic - 'NoneType' object has no attribute 'big_file_id'
+[17-Apr-25 13:37:13 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:37:19 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:37:25 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:37:31 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:37:37 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:37:38 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:37:39 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:37:40 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:37:40 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:37:40 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:37:40 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:37:40 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:37:40 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:37:40 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:37:40 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:37:41 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:37:41 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:37:41 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:38:10 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:38:19 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:38:31 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:38:32 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:38:33 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:38:34 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:38:34 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:38:34 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:38:34 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:38:34 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:38:34 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:38:34 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:38:34 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:38:35 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:38:35 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:38:35 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:40:45 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:40:46 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:40:47 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:40:48 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:40:48 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:40:48 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:40:48 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:40:48 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:40:48 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:40:48 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:40:48 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:40:49 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:40:49 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:40:49 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:45:28 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:45:30 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:45:31 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:45:32 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:45:32 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:45:32 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:45:32 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:45:32 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:45:32 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:45:32 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:45:32 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:45:33 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:45:33 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:45:33 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:45:58 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:46:21 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:46:22 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:46:23 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:46:24 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:46:24 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:46:24 - INFO] - FallenMusic - [•] Fallen Music Clients Booted Successfully.
+[17-Apr-25 13:46:24 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:46:24 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:46:24 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:46:24 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:46:25 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:46:25 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:46:25 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:46:25 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:47:49 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:47:50 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:47:51 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:47:52 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:47:52 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:47:52 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
+[17-Apr-25 13:47:52 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:47:53 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:47:53 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:47:53 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:47:53 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:47:53 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:47:53 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:47:53 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:47:59 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:48:13 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:48:19 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:48:21 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:48:21 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:48:21 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:48:21 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
+[17-Apr-25 13:48:21 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:48:22 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:48:22 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:48:22 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:48:22 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:48:22 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:48:22 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:48:22 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:49:52 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:49:58 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:50:00 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:50:00 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:50:01 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:50:01 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
+[17-Apr-25 13:50:01 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:50:01 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:50:01 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:50:01 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:50:01 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:50:01 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:50:01 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:50:01 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...
+[17-Apr-25 13:51:34 - INFO] - FallenMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┣★ ✯zefron ᴍᴜsɪᴄ ᴀss ✯ ★
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+[17-Apr-25 13:51:44 - INFO] - FallenMusic - [•] Booting ZEFRON Music Bot...
+[17-Apr-25 13:51:45 - INFO] - FallenMusic - [•] Booting ZEFRON Music Assistant...
+[17-Apr-25 13:51:46 - INFO] - FallenMusic - [•] Local Database Initialized...
+[17-Apr-25 13:51:46 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:51:46 - INFO] - FallenMusic - [•] Zefron Music Clients Booted Successfully.
+[17-Apr-25 13:51:46 - INFO] - FallenMusic - [•] Loading Modules...
+[17-Apr-25 13:51:46 - INFO] - FallenMusic - [•] Loaded 22 Modules.
+[17-Apr-25 13:51:46 - INFO] - FallenMusic - [•] Refreshing Directories...
+[17-Apr-25 13:51:46 - INFO] - FallenMusic - [•] Directories Refreshed.
+[17-Apr-25 13:51:46 - ERROR] - FallenMusic - ✯zefron ᴍᴜsɪᴄ ᴀss ✯ failed to send message at @zefronmusic, please go & check.
+[17-Apr-25 13:51:47 - INFO] - FallenMusic - [•] Bot Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:51:47 - INFO] - FallenMusic - [•] Assistant Started As ✯zefron ᴍᴜsɪᴄ ᴀss ✯.
+[17-Apr-25 13:51:47 - INFO] - FallenMusic - [•] Starting PyTgCalls Client...

@@ -205,34 +205,35 @@ async def help_menu(_, query: CallbackQuery):
         await query.answer()
     except:
         pass
-
-    try:
-        await query.edit_message_text(
-            text=f"๏ ʜᴇʏ {query.from_user.first_name}, 🥀\n\nᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴘ.",
-            reply_markup=InlineKeyboardMarkup(helpmenu),
-        )
-    except Exception as e:
-        LOGGER.error(e)
-        return
+    await query.edit_message_text(
+        text="**» ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.**",
+        reply_markup=InlineKeyboardMarkup(helpmenu),
+    )
 
 
 @app.on_callback_query(filters.regex("fallen_cb"))
 async def open_hmenu(_, query: CallbackQuery):
-    callback_data = query.data.strip()
-    cb = callback_data.split(None, 1)[1]
-    keyboard = InlineKeyboardMarkup(help_back)
-
     try:
         await query.answer()
     except:
         pass
-
+    callback_data = query.data.strip()
+    cb = callback_data.split(None, 1)[1]
     if cb == "help":
-        await query.edit_message_text(HELP_TEXT, reply_markup=keyboard)
+        await query.edit_message_text(
+            text=HELP_TEXT,
+            reply_markup=InlineKeyboardMarkup(help_back),
+        )
     elif cb == "sudo":
-        await query.edit_message_text(HELP_SUDO, reply_markup=keyboard)
+        await query.edit_message_text(
+            text=SUDO_TEXT,
+            reply_markup=InlineKeyboardMarkup(help_back),
+        )
     elif cb == "owner":
-        await query.edit_message_text(HELP_DEV, reply_markup=keyboard)
+        await query.edit_message_text(
+            text=OWNER_TEXT,
+            reply_markup=InlineKeyboardMarkup(help_back),
+        )
 
 
 @app.on_callback_query(filters.regex("fallen_home"))
@@ -241,13 +242,10 @@ async def home_fallen(_, query: CallbackQuery):
         await query.answer()
     except:
         pass
-    try:
-        await query.edit_message_text(
-            text=PM_START_TEXT.format(
-                query.from_user.first_name,
-                BOT_MENTION,
-            ),
-            reply_markup=InlineKeyboardMarkup(pm_buttons),
-        )
-    except:
-        pass
+    await query.edit_message_text(
+        text=PM_START_TEXT.format(
+            query.from_user.first_name,
+            BOT_MENTION,
+        ),
+        reply_markup=InlineKeyboardMarkup(pm_buttons),
+    )

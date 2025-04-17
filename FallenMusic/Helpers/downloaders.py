@@ -21,8 +21,11 @@
 # SOFTWARE.
 
 import os
+import logging
 
 from yt_dlp import YoutubeDL
+
+LOGGER = logging.getLogger("FallenMusic")
 
 ydl_opts = {
     "format": "bestaudio/best",
@@ -39,14 +42,36 @@ ydl_opts = {
             "preferredquality": "320",
         }
     ],
+    "logger": LOGGER,
+    "encoding": "utf-8",
+    "extract_flat": True,
+    "ignoreerrors": True,
+    "retries": 3,
+    "socket_timeout": 30,
 }
-ydl = YoutubeDL(ydl_opts)
-
 
 def audio_dl(url: str) -> str:
-    sin = ydl.extract_info(url, False)
-    x_file = os.path.join("downloads", f"{sin['id']}.mp3")
-    if os.path.exists(x_file):
-        return x_file
-    ydl.download([url])
-    return x_file
+    try:
+        ydl = YoutubeDL(ydl_opts)
+        info = ydl.extract_info(url, download=False)
+        if not info:
+            raise Exception("Could not extract video information")
+            
+        video_id = info['id']
+        file_path = os.path.join("downloads", f"{video_id}.mp3")
+        
+        if os.path.exists(file_path):
+            LOGGER.info(f"File already exists: {file_path}")
+            return file_path
+            
+        LOGGER.info(f"Downloading audio from: {url}")
+        ydl.download([url])
+        
+        if not os.path.exists(file_path):
+            raise Exception("Download failed - file not found")
+            
+        return file_path
+        
+    except Exception as e:
+        LOGGER.error(f"Download error: {str(e)}")
+        raise

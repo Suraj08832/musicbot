@@ -1,1 +1,1 @@
-worker: bash fallen
+worker: python -m FallenMusic
