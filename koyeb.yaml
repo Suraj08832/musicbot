@@ -1,0 +1,20 @@
+name: musicbot
+services:
+  - name: musicbot
+    image: python:3.9
+    ports:
+      - port: 8080
+        protocol: http
+    env:
+      - name: API_ID
+        secret: true
+      - name: API_HASH
+        secret: true
+      - name: BOT_TOKEN
+        secret: true
+    build:
+      command: |
+        pip install --upgrade pip
+        pip install -r requirements-koyeb.txt
+    run:
+      command: python -m FallenMusic 
