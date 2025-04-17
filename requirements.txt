@@ -1,3 +1,4 @@
+--only-binary :all:
 tgcrypto==1.2.5
 pyrogram==2.0.106
 numpy==1.21.6
